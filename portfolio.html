@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
   <link rel="stylesheet" href="./css/normalize.css">
   <link rel="stylesheet" href="./css/styles.css">
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
@@ -17,7 +18,7 @@
     <!-- Блок навигации -->
     <div class="header-container container">
       <nav class="navigation">
-        <a class="logo link" href="./index.html" lang="en"> <span class="logo-first-word">Web</span> Studio</a>
+        <a class="logo link animate__fadeInLeft" href="./index.html" lang="en"> <span class="logo-first-word">Web</span> Studio</a>
         <ul class="navigation-list list">
           <li class="navigation-list-item">
             <a class="navigation-list-link link" href="./index.html">Студия</a></li>
@@ -63,65 +64,90 @@
         <div class="work-examples">
           <ul class="work-examples-list list">
             <li class="work-examples-list-item">
-              <img class="work-example-img" src="./images/pic1.jpg" alt="Технокряк">
+              <div class="overlay-text">
+                <img class="work-example-img" src="./images/pic1.jpg" alt="Технокряк">
+                <p class="popup-text">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>  
+              </div>
               <div class="work-example-block">
                 <h2 class="work-examples-list-title">Технокряк</h2>
                 <p class="work-examples-list-text">Веб-сайт</p>
               </div>
-              <p hidden class="popup-text">Технокряк это современная площадка распространения коронавируса. Компании
-                используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
             </li>
             <li class="work-examples-list-item">
+              <div class="overlay-text">
               <img class="work-example-img" src="./images/pic2.jpg" alt="Постер Нью Орлеан вс Голден Стар">
+              <p class="popup-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit omnis reprehenderit totam beatae provident atque ipsum, laboriosam ab voluptatum blanditiis excepturi, tenetur harum.</p> 
+              </div>
               <div class="work-example-block">
                 <h2 class="work-examples-list-title">Постер <span lang="en">New Orlean vs Golden Star</span></h2>
                 <p class="work-examples-list-text">Дизайн</p>
               </div>
             </li>
             <li class="work-examples-list-item">
+              <div class="overlay-text">
               <img class="work-example-img" src="./images/pic3.jpg" alt="Ресторан Сифуд">
+              <p class="popup-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus commodi facilis quis, iure reiciendis debitis.</p> 
+              </div>
               <div class="work-example-block">
                 <h2 class="work-examples-list-title">Ресторан <span lang="en">Seafood</span> </h2>
                 <p class="work-examples-list-text">Приложение</p>
               </div>
             </li>
             <li class="work-examples-list-item">
+              <div class="overlay-text">
               <img class="work-example-img" src="./images/pic4.jpg" alt="Проект Прайм">
+              <p class="popup-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita, ad nostrum veniam consectetur natus esse nulla aperiam commodi dolorem illo odio eos veritatis repellendus tempore iure labore a blanditiis fuga!</p> 
+              </div>
               <div class="work-example-block">
                 <h2 class="work-examples-list-title">Проект <span lang="en">Prime</span></h2>
                 <p class="work-examples-list-text">Маркетинг</p>
               </div>
             </li>
             <li class="work-examples-list-item">
+              <div class="overlay-text">
               <img class="work-example-img" src="./images/pic5.jpg" alt="Проект Боксес">
+              <p class="popup-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo libero, eum similique nostrum quibusdam laborum.</p> 
+              </div>
               <div class="work-example-block">
                 <h2 class="work-examples-list-title">Проект <span lang="en">Boxes</span></h2>
                 <p class="work-examples-list-text">Приложение</p>
               </div>
             </li>
             <li class="work-examples-list-item">
+              <div class="overlay-text">
               <img class="work-example-img" src="./images/pic6.jpg" alt="Інспірейшн хез ноу бордерс">
+              <p class="popup-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, totam minus. Distinctio expedita rem sint, ea eum voluptates nam ad aspernatur, odio, culpa et qui aliquid sapiente perspiciatis odit itaque reprehenderit?</p> 
+              </div>
               <div class="work-example-block">
                 <h2 class="work-examples-list-title"> <span lang="en">Inspiration has no Borders</span></h2>
                 <p class="work-examples-list-text">Веб-сайт</p>
               </div>
             </li>
             <li class="work-examples-list-item">
+              <div class="overlay-text">
               <img class="work-example-img" src="./images/pic7.jpg" alt="Издание Лімітед Едішн">
+              <p class="popup-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus iure rem praesentium autem possimus corrupti voluptate voluptatum nobis reiciendis!</p> 
+              </div>
               <div class="work-example-block">
                 <h2 class="work-examples-list-title">Издание <span lang="en">Limited Edition</span></h2>
                 <p class="work-examples-list-text">Дизайн</p>
               </div>
             </li>
             <li class="work-examples-list-item">
+              <div class="overlay-text">
               <img class="work-example-img" src="./images/pic8.jpg" alt="Проект ЛАБ">
+              <p class="popup-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti cupiditate repellendus molestiae facilis odit hic voluptatibus voluptas aspernatur vero, repudiandae eveniet unde porro exercitationem? Laborum cum nesciunt blanditiis odit incidunt.</p> 
+              </div>
               <div class="work-example-block">
                 <h2 class="work-examples-list-title">Проект <span lang="en">LAB</span></h2>
                 <p class="work-examples-list-text">Маркетинг</p>
               </div>
             </li>
             <li class="work-examples-list-item">
+              <div class="overlay-text">
               <img class="work-example-img" src="./images/pic9.jpg" alt="Гроуінг Бізнес">
+              <p class="popup-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ex ipsam optio?</p> 
+              </div>
               <div class="work-example-block">
                 <h2 class="work-examples-list-title"> <span lang="en">Growing Business</span></h2>
                 <p class="work-examples-list-text">Приложение</p>
@@ -135,7 +161,7 @@
   <footer class="footer">
     <div class="footer-container container">
       <div class="contacts-container">
-        <a class="logo link" href="./index.html" lang="en"><span class="logo-first-word">Web</span> Studio</a>
+        <a class="logo link animate__fadeInLeft" href="./index.html" lang="en"><span class="logo-first-word">Web</span> Studio</a>
         <address>
           <ul class="contact-info list">
             <li class="contact-info-item">
